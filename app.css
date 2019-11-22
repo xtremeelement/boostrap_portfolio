@@ -1,0 +1,149 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #c5c1c0;
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+.blurb h2 {
+  color: #f7ce3f;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  /* color: #f498b8; */
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 100vh;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-shadow: 1px 1px white;
+}
+
+.parallax {
+  background-image: url("imgs/beans-beverage-caffeine-cappuccino-585754.jpg");
+
+  height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#viewport {
+  height: 100vh;
+}
+.splashimg {
+  height: 100vh;
+  width: auto;
+}
+
+.card {
+  float: left;
+  width: 50px;
+}
+
+.moveDown {
+  margin-top: 300px;
+  color: #0a1612;
+}
+
+.services {
+  height: 100vh;
+}
+.whiteicon {
+  color: white;
+}
+.centerMe {
+  margin: 0 auto;
+}
+.fa-python {
+  color: #f7ce3f;
+}
+
+.fa-js {
+  color: yellow;
+}
+
+.fa-html5 {
+  color: red;
+}
+
+.fa-css3-alt {
+  color: steelblue;
+}
+
+.card {
+  background: #1a2930;
+  color: white;
+  margin-left: 45px;
+  height: 200px;
+  margin-top: 25vh;
+}
+
+.card-title {
+  text-align: center;
+}
+
+#mainNavbar .nav-link {
+  color: #0a1612;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #f7ce3f;
+}
+
+#mainNavbar .navbar-brand {
+  color: #f7ce3f;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px black;
+}
+.navbar-brand.scrolled {
+  color: #d5d5d5;
+  transition: background 500ms;
+}
+
+#headingGroup span {
+  color: #f7ce3f;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+/* .navbar.scrolled {
+  background: #6d7993;
+  transition: background 500ms;
+} */
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+  .blurb h2 {
+    font-size: 2rem;
+  }
+}
