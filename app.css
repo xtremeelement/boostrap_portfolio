@@ -1,8 +1,10 @@
 html {
   scroll-behavior: smooth;
+  transition: scroll-behavior 1s;
 }
 body {
-  background: #c5c1c0;
+  background: #1a2930;
+  color: #cdc1c0;
   font-family: "Nunito", sans-serif;
 }
 
@@ -21,7 +23,6 @@ a:hover {
 }
 
 .blurb p {
-  /* color: #f498b8; */
   font-weight: 100;
   font-size: 1.125rem;
   line-height: 2;
@@ -65,8 +66,8 @@ a:hover {
 }
 
 .moveDown {
-  margin-top: 300px;
-  color: #0a1612;
+  margin-top: 200px;
+  color: #c5c1c0;
 }
 
 .services {
@@ -95,7 +96,7 @@ a:hover {
 }
 
 .card {
-  background: #1a2930;
+  background: #c9c9c9;
   color: white;
   margin-left: 45px;
   height: 200px;
@@ -131,19 +132,4 @@ a:hover {
 #headingGroup h1 {
   font-weight: 100;
   font-size: 4rem;
-}
-
-/* .navbar.scrolled {
-  background: #6d7993;
-  transition: background 500ms;
-} */
-
-@media (max-width: 1200px) {
-  #headingGroup h1 {
-    font-weight: 100;
-    font-size: 3rem;
-  }
-  .blurb h2 {
-    font-size: 2rem;
-  }
 }
