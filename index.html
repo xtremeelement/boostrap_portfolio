@@ -25,7 +25,7 @@
 
     <link rel="stylesheet" href="app.css" />
 
-    <title>Museum of Candy</title>
+    <title>Brandon Downhour</title>
   </head>
 
   <body>
@@ -57,6 +57,9 @@
             <a href="#portfolio" class="nav-link">PORTFOLIO</a>
           </li>
           <li class="nav-item">
+            <a href="#contact" class="nav-link">CONTACT</a>
+          </li>
+          <li class="nav-item">
             <a
               href="https://github.com/xtremeelement"
               target="_blank"
@@ -84,8 +87,7 @@
             class="text-white text-center d-none d-lg-block mt-5"
           >
             <h1 class="">WEB<span>/</span>DEVELOPER</h1>
-            <h1 class="">WEB<span>/</span>DEVELOPER</h1>
-            <h1 class="">WEB<span>/</span>DEVELOPER</h1>
+            
           </div>
         </div>
         <div class="col-lg-6">
@@ -120,8 +122,9 @@
       </div>
       <div class="parallax"></div>
       <div class="container" id="services">
+        
           <div class="row justify-content-md-center ">
-              <h2 class="col-md-auto moveDown"><i class="fas fa-concierge-bell fa-2x"></i> Services</h2>
+              <h2 class="col-md-auto moveDown" id="fontMe"> Services <br><i class="fas fa-concierge-bell fa-2x" id="bell"></i></h2>
           </div>
           <div class="row services">
             <div class="card col" style="width: 18rem;">
@@ -260,6 +263,32 @@
             </a>
           </div>
         </div>
+      </div>
+     
+    </section>
+    <div class="parallax"></div>
+    <section>
+        
+      <div class="container contact" id="contact">
+          <div class="row justify-content-md-center ">
+              <h2 class="col-md-auto moveDown" id="fontMe"> CONTACT <br><i class="fas fa-concierge-bell fa-2x" id="bell"></i></h2>
+          </div>
+          <form>
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <input type="password" class="form-control" id="message" placeholder="Enter Message">
+              </div>              
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </form>
       </div>
     </section>
 

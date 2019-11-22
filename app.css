@@ -16,6 +16,14 @@ a:hover {
   color: white;
   text-decoration: none;
 }
+
+#fontMe {
+  font-weight: 100;
+  font-size: 2.5rem;
+  color: #f7ce3e;
+  line-height: 2;
+}
+
 .blurb h2 {
   color: #f7ce3f;
   font-weight: 100;
@@ -35,7 +43,7 @@ a:hover {
 }
 
 #mainNavbar {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 100;
   text-transform: uppercase;
   text-shadow: 1px 1px white;
@@ -60,11 +68,6 @@ a:hover {
   width: auto;
 }
 
-.card {
-  float: left;
-  width: 50px;
-}
-
 .moveDown {
   margin-top: 200px;
   color: #c5c1c0;
@@ -80,7 +83,7 @@ a:hover {
   margin: 0 auto;
 }
 .fa-python {
-  color: #f7ce3f;
+  color: #438496;
 }
 
 .fa-js {
@@ -94,10 +97,16 @@ a:hover {
 .fa-css3-alt {
   color: steelblue;
 }
+#bell {
+  margin-left: 25px;
+  color: white;
+}
 
 .card {
-  background: #c9c9c9;
-  color: white;
+  float: left;
+  width: 50px;
+  background: #f7ce3e;
+  color: #1a2930;
   margin-left: 45px;
   height: 200px;
   margin-top: 25vh;
@@ -132,4 +141,8 @@ a:hover {
 #headingGroup h1 {
   font-weight: 100;
   font-size: 4rem;
+}
+
+.contact {
+  height: 100vh;
 }
