@@ -146,3 +146,12 @@ a:hover {
 .contact {
   height: 100vh;
 }
+
+h5 {
+  text-shadow: 2px 2px black;
+  background-color: black;
+}
+p > a {
+  text-shadow: 2px 2px 1px black;
+  background-color: black;
+}
