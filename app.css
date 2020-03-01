@@ -46,14 +46,24 @@ a:hover {
   font-size: 1rem;
   font-weight: 100;
   text-transform: uppercase;
-  text-shadow: 1px 1px white;
+  transition: background-color 1s;
+}
+.navColor {
+  background-color: #111111;
 }
 
 .parallax {
   background-image: url("imgs/beans-beverage-caffeine-cappuccino-585754.jpg");
-
   height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.parallax1 {
+  background-image: url("imgs/beans-beverage-caffeine-cappuccino-585754.jpg");
+  height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +127,7 @@ a:hover {
 }
 
 #mainNavbar .nav-link {
-  color: #0a1612;
+  color: white;
 }
 
 #mainNavbar .nav-link:hover {

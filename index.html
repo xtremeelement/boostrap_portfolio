@@ -75,32 +75,27 @@
       </div>
     </nav>
 
-    <section class="container-fluid px-0" id="home">
+    <section class="container px-0" id="home">
       <div class="row align-items-center" id="viewport">
-        <div class="col-lg-6">
+        <div class="col">
           <div
             id="headingGroup"
             class="text-white text-center d-none d-lg-block mt-5"
           >
+            <h1 class="">FULL<span>/</span>STACK</h1>            
             <h1 class="">WEB<span>/</span>DEVELOPER</h1>            
-            <h1 class="">WEB<span>/</span>DEVELOPER</h1>            
-            <h1 class="">WEB<span>/</span>DEVELOPER</h1>            
+            <!-- <h1 class="">WEB<span>/</span>DEVELOPER</h1>             -->
           </div>
-        </div>
-        <div class="col-lg-6">
-          <img
-            class="img-fluid splashimg"
-            src="imgs/wallhaven-zxg7gj.jpg"
-            alt=""
-          />
-        </div>
+        </div>        
       </div>
     </section>
 
-    <div class="parallax"></div>
+    <div class="parallax">
+      
+    </div>
 
-    <section class="container-fluid px-0" id="about">
-      <div class="row align-items-center content">
+    <section class="container-fluid px-0 content" id="about">
+      <div class="row align-items-center ">
         <div class="col-md-6 order-2 order-md-1">
           <img src="imgs/DSC02026.JPG" alt="" class="img-fluid" />
         </div>
@@ -110,8 +105,7 @@
               <h2>ABOUT ME</h2>
               <i class="fas fa-eject icon fa-3x whiteicon"></i>
               <p class="lead">
-                Hello, welcome to my page. A little about myself. I'm currently a student enrolled in the UCF Coding Bootcamp. 
-                I have a passion for coding. I love to travel.
+                Hello, I'm a Full-Stack Web Developer focusing on the MERN stack. I've listed some of my work below.
               </p>
             </div>
           </div>
@@ -119,7 +113,9 @@
       </div>
     </section>
 
-    <div class="parallax"></div>
+    <div class="parallax">
+      
+    </div>
 
     <section>
       <div class="container" id="services">        
@@ -159,7 +155,7 @@
       </div>
     </section>
 
-    <div class="parallax"></div>
+    <div class="parallax1"></div>
 
     <section class="container">  
       <div class="row align-items-center content" id="portfolio">
@@ -317,5 +313,18 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script>
+      var myNav = document.querySelector('#mainNavbar');
+      window.onscroll = function () { 
+        "use strict";
+      if (window.pageYOffset>0 ) {
+          myNav.classList.add("navColor");          
+      } 
+      else {
+          
+          myNav.classList.remove("navColor");
+      }
+      };
+    </script>
   </body>
 </html>
