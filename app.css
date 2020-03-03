@@ -125,10 +125,11 @@ a:hover {
 .contactMe {
   width: 100%;
   margin: 0 auto;
-  background-color: #2f2f2f;
+  background-color: #1a2930;
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: white;
 }
 .dataStuff {
   margin: 0 auto;
