@@ -87,7 +87,7 @@ a:hover {
 
 .portfolio {
   display: flex;
-
+  padding-top: 50px;
   width: 100%;
   margin: 0 auto;
   margin-top: 25px;
