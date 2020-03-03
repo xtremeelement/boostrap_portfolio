@@ -51,12 +51,12 @@ a:hover {
   transition: background-color 1s;
 }
 .navColor {
-  background-color: #111111;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .parallax {
   background-image: url("imgs/beans-beverage-caffeine-cappuccino-585754.jpg");
-  height: 500px;
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,14 +90,13 @@ a:hover {
   padding-top: 50px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .about-me {
   width: 80%;
   margin: 0 auto;
   min-width: 370px;
-  background-color: #1a2930;
+
   padding-top: 25px;
   margin-top: 50px;
 }
@@ -107,9 +106,10 @@ a:hover {
 
 .portSection {
   width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
   background-color: white;
-  border-top: 2px solid black;
-  color: white;
+  color: black;
 }
 
 .whiteicon {
@@ -120,6 +120,21 @@ a:hover {
 }
 .fa-python {
   color: #438496;
+}
+
+.contactMe {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #2f2f2f;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.dataStuff {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .fa-js {
