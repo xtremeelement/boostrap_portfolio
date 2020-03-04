@@ -51,7 +51,7 @@ a:hover {
   transition: background-color 1s;
 }
 .navColor {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #1a2930;
 }
 
 .parallax {
